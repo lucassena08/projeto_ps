@@ -1,0 +1,29 @@
+.main-container header {
+  background-color: #0EA45D;
+  width: 960px;
+  height: 100px;
+  text-align: center;
+}
+
+.main-container .logo-branco {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+
+  position: absolute;
+  width: 456px;
+  height: 61px;
+  left: 252px;
+  top: 20px;
+}
+
+.main-container header .logo-branco img {
+  position: absolute;
+  width: 78.09px;
+  height: 58.49px;
+  left: 64.13px;
+  top: -0.46px;
+}
