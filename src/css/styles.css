@@ -1,21 +1,39 @@
 @font-face {
-  font-family: 'Alumni Sans';
-  src: url('../fonts/AlumniSans-Bold.ttf');
+  font-family: Alumni Sans;
+  src: url('../fonts/AlumniSans-Bold.ttf') format("truetype");
+  font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter-Medium.ttf');
+  font-family: Inter;
+  src: url('../fonts/Inter-Regular.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
-.main-container header {
+@font-face {
+  font-family: Inter;
+  src: url('../fonts/Inter-Medium.ttf') format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('../fonts/Inter-Bold.ttf') format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.main-container {
   background-color: #0EA45D;
   width: 960px;
   height: 100px;
   text-align: center;
 }
 
-.main-container .logo-branco {
+.logo-branco {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -30,7 +48,7 @@
   top: 20px;
 }
 
-.main-container header .logo-branco img {
+.main-container img {
   position: absolute;
   width: 78.09px;
   height: 58.49px;
@@ -38,7 +56,7 @@
   top: -0.46px;
 }
 
-.main-container header .logo-branco span {
+.main-container span {
   position: absolute;
   width: 220px;
   height: 68px;
@@ -54,9 +72,15 @@
   color: #FFFFFF;
 }
 
-.main-container nav {
+.container-botoes {
+  width: 960px;
+  height: 30px;
+
+  background: #E97B3E;
+}
+
+.navbar {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 0px;
@@ -69,17 +93,7 @@
   top: 104px;
 }
 
-.main-container .container-botoes {
-  position: absolute;
-  width: 960px;
-  height: 30px;
-  left: 0px;
-  top: 100px;
-
-  background: #E97B3E;
-}
-
-.main-container .container-botoes nav ul li {
+.navbar li a {
   height: 22px;
 
   font-family: 'Inter';
@@ -90,7 +104,25 @@
   color: #FFFFFF;
 
   list-style-type: none;
+  text-decoration: none;
+}
 
-  flex: none;
-  flex-grow: 0;
+.simule-text {
+  position: absolute;
+  width: 723px;
+  height: 19px;
+  left: 118px;
+  top: 216px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+.simule-text strong {
+  font-weight: 700;
 }
