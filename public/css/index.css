@@ -1,3 +1,13 @@
+header {
+  position: relative;
+}
+
+.content-container {
+  display: inline-block;
+  width: 960px;
+  height: 948px;
+}
+
 @font-face {
   font-family: Alumni Sans;
   src: url('../fonts/AlumniSans-Bold.ttf') format("truetype");
@@ -105,17 +115,22 @@
 }
 
 .simule-text {
-  position: absolute;
+  position: relative;
   width: 723px;
-  height: 19px;
+  display: inline-block;
+
+  margin: 0;
   left: 118px;
-  top: 216px;
+  right: 0;
+  bottom: 0;
+  top: 86px;
 
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  
 
   color: #000000;
 }
@@ -125,17 +140,21 @@
 }
 
 .input-sequence {
+  position: relative;
+
   --tamanho-gap: 42px;
   --tamanho-input: 49px;
 
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-
   align-items: center;
-  position: absolute;
+
   height: calc(var(--tamanho-input) * 5 + calc(var(--tamanho-gap) * 4) + 49px);
-  top: 336px;
+  
+  top: 187px;
+
+  width: 468px;
   left: 246px;
 }
 
@@ -181,13 +200,10 @@
 }
 
 .btn-simular {
-  /* position: absolute; */
+  position: relative;
   width: 163px;
   height: 49px;
-  /* left: 399px; */
-  /* top: 823px;  */
-
-  margin-top: 25px;
+  top: 32px; 
 
   background: #00E378;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -211,7 +227,6 @@ footer {
   width: 960px;
   height: 100px;
   left: 0px;
-  top: 978px;
 
   background: #0EA45D;
 }
