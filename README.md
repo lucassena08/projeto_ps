@@ -13,6 +13,4 @@ Clonar o projeto
 No browser:
 
 <code>localhost:3000</code>
-
-
 </pre>
