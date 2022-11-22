@@ -27,14 +27,15 @@
 }
 
 .main-container {
+  position: relative;
   background-color: #0EA45D;
   width: 960px;
   height: 100px;
   text-align: center;
 }
 
-.logo-branco {
-  display: flex;
+.logo-header {
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   padding: 0px;
@@ -47,7 +48,7 @@
   top: 20px;
 }
 
-.logo-branco img {
+.logo-header img {
   position: relative;
   width: 78.09px;
   height: 58.49px;
@@ -55,12 +56,9 @@
   /* top: -0.46px; */
 }
 
-.logo-branco span {
+.logo-header span {
   position: relative;
-  width: 220px;
-  height: 68px;
-  /* left: 64.13px; */
-  /* top: -3.5px; */
+  top: -3.5px;
 
   font-family: 'Alumni Sans';
   font-style: normal;
@@ -177,5 +175,68 @@
   line-height: 19px;
 
   color: #000000;
+}
 
+.btn-simular {
+  position: absolute;
+  width: 162px;
+  height: 49px;
+  left: 399px;
+  top: 823px;
+
+  background: #00E378;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: 0;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+footer {
+  position: relative;
+  width: 960px;
+  height: 100px;
+  left: 0px;
+  top: 978px;
+
+  background: #0EA45D;
+}
+
+
+footer img {
+  position: relative;
+
+  height: 67px;
+  width: 71px;
+
+  margin-left: 37px;
+  margin-top: 11px;
+}
+
+footer span {
+  width: 139px;
+  height: 22px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  position: relative;
+
+  left: 298px;
+  top: -16px;
+
+
+  color: #FFFFFF;
 }
