@@ -4,15 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  <link rel="stylesheet" href="./src/css/reset.css">
-  <link rel="stylesheet" href="./src/css/styles.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
   <header>
     <div class="main-container">
       <div class="logo-header">
-        <img src="./src/images/logo-icon.svg" alt="">
+        <img src="images/logo-icon.svg" alt="">
         <span>MoneyScale</span>
       </div>
     </div>
@@ -32,22 +32,27 @@
   <p class="simule-text">Simule seus investimentos de <strong>renda fixa</strong> no algoritmo da MoneyScale e escale
     seu rendimentos</p>
 
-  <div class="input-sequence">
+  <form class="input-sequence" action="/" method="post">
     <select class="input-invest-type" name="investiment" id="">
       <option value="0">Escolha o tipo do seu investimento...</option>
+      <option value="1">Tesouro Direto</option>
+      <option value="2">LCI</option>
+      <option value="3">LCA</option>
+      <option value="4">CDI</option>
+      <option value="5">CDB</option>
     </select>
     <input class="input-texto-pag1" name="aporte-inicial" type="text" placeholder="Aporte Inicial...">
     <input class="input-texto-pag1" name="aporte-mensal" type="text" placeholder="Aporte Mensal...">
     <input class="input-texto-pag1" name="taxa-de-juros" type="text" placeholder="Taxa de Juros...">
     <input class="input-texto-pag1" name="duracao-meses" type="text" placeholder="Duração do investimento em meses...">
-  </div>
+  </form>
 
   <button class="btn-simular">SIMULAR</button>
 
-  <script src="./src/js/main.js"></script>
+  <script src="js/main.js"></script>
 
   <footer>
-    <img src="./src/images/logo-icon.svg" alt="">
+    <img src="images/logo-icon.svg" alt="">
     <span>copyright copy&</span>
   </footer>
 </body>

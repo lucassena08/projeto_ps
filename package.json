@@ -1,0 +1,25 @@
+{
+  "name": "projeto_ps",
+  "version": "1.0.0",
+  "description": "projeto final de processos de software e programação front-end",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucassena08/projeto_ps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucassena08/projeto_ps/issues"
+  },
+  "homepage": "https://github.com/lucassena08/projeto_ps#readme",
+  "devDependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
