@@ -36,13 +36,14 @@
 
   <form class="input-sequence" action="/" method="post">
     <select class="input-invest-type" name="tipo_investimento" id="">
-      <option value="0">Escolha o tipo do seu investimento...</option>
+      <option value="nenhum">Escolha o tipo do seu investimento...</option>
       <option value="tesouro">Tesouro Direto</option>
-      <option value="2">LCI</option>
-      <option value="3">LCA</option>
-      <option value="4">CDI</option>
-      <option value="5">CDB</option>
+      <option value="lci">LCI</option>
+      <option value="lca">LCA</option>
+      <option value="cdi">CDI</option>
+      <option value="cdb">CDB</option>
     </select>
+
     <input class="input-texto-pag1" name="aporte_inicial" type="text" placeholder="Aporte Inicial...">
     <input class="input-texto-pag1" name="aporte_mensal" type="text" placeholder="Aporte Mensal...">
     <input class="input-texto-pag1" name="taxa_de_juros" type="text" placeholder="Taxa de Juros...">
@@ -51,13 +52,12 @@
     <button class="btn-simular" type="submit">SIMULAR</button>
   </form>
 
-
-  <script src="js/main.js"></script>
-
   <footer>
     <img src="images/logo-icon.svg" alt="">
     <span>copyright copy&</span>
   </footer>
+
+  <script src="../src/js/index.js"></script>
 </body>
 
 </html>
