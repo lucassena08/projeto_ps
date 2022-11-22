@@ -35,33 +35,32 @@
 
 .logo-branco {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 0px;
   gap: 20px;
 
-  position: absolute;
+  position: relative;
   width: 456px;
   height: 61px;
   left: 252px;
   top: 20px;
 }
 
-.main-container img {
-  position: absolute;
+.logo-branco img {
+  position: relative;
   width: 78.09px;
   height: 58.49px;
-  left: 64.13px;
-  top: -0.46px;
+  /* left: 64.13px; */
+  /* top: -0.46px; */
 }
 
-.main-container span {
-  position: absolute;
+.logo-branco span {
+  position: relative;
   width: 220px;
   height: 68px;
-  left: 171.87px;
-  top: -3.5px;
+  /* left: 64.13px; */
+  /* top: -3.5px; */
 
   font-family: 'Alumni Sans';
   font-style: normal;
@@ -86,11 +85,11 @@
   padding: 0px;
   gap: 23px;
 
-  position: absolute;
+  position: relative;
   width: 636px;
   height: 22px;
   left: 162px;
-  top: 104px;
+  top: 4px;
 }
 
 .navbar li a {
@@ -125,4 +124,58 @@
 
 .simule-text strong {
   font-weight: 700;
+}
+
+.input-sequence {
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(245px + 168px);
+
+  top: 336px;
+  left: 246px;
+}
+
+.input-invest-type {
+  width: 468px;
+  height: 49px;
+  padding-left: 14px;
+
+  background: #C4C4C4;
+  border-radius: 10px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+
+  margin: 0;
+  border: 0;
+}
+
+
+.input-texto-pag1 {
+  width: 454px;
+  height: 49px;
+
+  padding: 0 0 0 14px;
+  margin: 0;
+  border: 0px;
+
+  background: #C4C4C4;
+  border-radius: 10px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+
 }
