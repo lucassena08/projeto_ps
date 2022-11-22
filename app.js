@@ -17,6 +17,9 @@ app.get("/:foo", (req, res) => {
   res.sendFile(__dirname + "/views/" + foo + ".html")
 })
 
+app.post("/", (req, res) => {
+  res.redirect("/informacoes-investimento")
+})
 
 app.listen(3000, () => {
   console.log("Server stated on port 3000.")

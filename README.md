@@ -10,4 +10,9 @@ Clonar o projeto
 
 <code>nodemon app.js</code>
 
+No browser:
+
+<code>localhost:3000</code>
+
+
 </pre>
