@@ -1,20 +1,20 @@
 const formulario = document.querySelector('.input-sequence')
 const selecao = formulario.getElementsByTagName('select')
 const inputs = formulario.getElementsByTagName('input')
-const iterableInput = [...inputs]
+const iterableInputs = [...inputs]
 
 formulario.onsubmit = () => {
   localStorage.clear()
   const selectedIndex = selecao[0].options.selectedIndex
   
-  const selectedIndexValue = selecao[0].options[selectedIndex].value
+  const selectedIndexTitle = selecao[0].options[selectedIndex].title
   const selectedIndexText = selecao[0].options[selectedIndex].innerText
-  localStorage.setItem(selectedIndexValue, selectedIndexText)
+  localStorage.setItem(selectedIndexTitle, selectedIndexText)
 
-  console.log(selectedIndexValue)
+  console.log(selectedIndexTitle)
   console.log(selectedIndexText)
 
-  iterableInput.forEach(input => {
+  iterableInputs.forEach(input => {
     const name = input.name
     const text = input.value || input.placeholder
 

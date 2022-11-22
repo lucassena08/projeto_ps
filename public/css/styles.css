@@ -125,13 +125,16 @@
 }
 
 .input-sequence {
+  --tamanho-gap: 42px;
+  --tamanho-input: 49px;
+
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 
   align-items: center;
   position: absolute;
-  height: 487px;
+  height: calc(var(--tamanho-input) * 5 + calc(var(--tamanho-gap) * 4) + 49px);
   top: 336px;
   left: 246px;
 }

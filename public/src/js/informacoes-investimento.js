@@ -1,6 +1,9 @@
-for (let i = 0; i < localStorage.length; i++) {
-  const key = localStorage.key(i)
-  const value = localStorage.getItem(key)
+const inputs = document.getElementsByTagName('input')
+const iterableInputs = [...inputs]
 
-  console.log(key, value)
-}
+iterableInputs.forEach(input => {
+  const inputName = input.name
+  const value = localStorage.getItem(inputName)
+  
+  input.value = value
+})
