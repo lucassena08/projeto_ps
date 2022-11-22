@@ -4,7 +4,6 @@
   "description": "projeto final de processos de software e programação front-end",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon"
   },
   "repository": {
     "type": "git",
