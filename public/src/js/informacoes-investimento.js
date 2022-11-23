@@ -57,3 +57,9 @@ iterableInputs[4].style.color = '#00982B'
 iterableInputs[5].style.color = '#00982B'
 iterableInputs[6].style.color = '#FF0000'
 iterableInputs[7].style.color = '#FF0000'
+
+const labelInvest = document.getElementById('label-line-invest')
+const labelPoupanca = document.getElementById('label-line-poupanca')
+
+labelInvest.innerHTML = valorTotalComIR.toFixed(0)
+labelPoupanca.innerHTML = (valorTotalSemIR * 0.7).toFixed(0)

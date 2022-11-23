@@ -84,9 +84,72 @@ footer {
   left: 89px;
 }
 
+#label-line-poupanca {
+  position: absolute;
+  width: 45px;
+  height: 19px;
+  left: 798px;
+  top: 316px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #FF1010;
+}
+
+#line-poupanca {
+  position: absolute;
+  width: 671.73px;
+  height: 0px;
+  left: 134px;
+  top: 427px;
+
+  border: 2px solid #FF0000;
+  transform: rotate(-17.68deg);
+}
+
+#label-line-invest {
+  position: absolute;
+  width: 64px;
+  height: 19px;
+  left: 796px;
+  top: 272px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #00982B;
+}
+
+#line-invest {
+  position: absolute;
+  width: 686.94px;
+  height: 0px;
+  left: 123px;
+  top: 405px;
+
+  border: 2px solid #00982B;
+  transform: rotate(-21.07deg);
+}
+
 .arrow-2 {
   top: 52px;
   left: 133px;
+}
+
+#graph-number-one {
+  position: absolute;
+
+  left: 462px;
+  top: 536px;
+  font-weight: 700;
+  color: #000000;
 }
 
 .poupanca-box {
