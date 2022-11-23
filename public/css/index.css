@@ -165,6 +165,12 @@ h4, p {
   left: 246px;
 }
 
+.input-sequence .loading-img {
+  display: none;
+  position: relative;
+  top: 18px;
+}
+
 .input-invest-type {
   width: 468px;
   height: 49px;
