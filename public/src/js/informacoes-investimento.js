@@ -37,17 +37,20 @@ calcularAliquota()
 const taxa = Math.fround(localStorage.getItem('taxa_de_juros')) / 100
 const taxaMensal = taxa / 12
 
+let valorTotal = aporteInicial
 let valorTotalSemIR = aporteInicial
 for (let i = 1; i <= duracaoInvestimento; i++) {
+  valorTotal += aporteMensal
   valorTotalSemIR += aporteMensal
-  valorTotalSemIR += valorTotalSemIR * taxaMensal
+  valorTotal += (valorTotal * taxaMensal) * aliquota
+  valorTotalSemIR += valorTotal * taxaMensal
 }
-const valorTotalComIR = valorTotalSemIR * (1 - aliquota)
 
-iterableInputs[3].value = valorTotalComIR.toFixed(2)
+iterableInputs[3].value = valorTotal.toFixed(2)
 iterableInputs[4].value = valorTotalSemIR.toFixed(2)
-iterableInputs[5].value = (valorTotalSemIR - valorTotalInvestido).toFixed(2)
-iterableInputs[6].value = (valorTotalSemIR - valorTotalComIR).toFixed(2)
+const valorTotalSemInvestimento = aporteInicial + (aporteMensal * duracaoInvestimento)
+iterableInputs[5].value = (valorTotalSemIR - valorTotalSemInvestimento).toFixed(2)
+iterableInputs[6].value = (valorTotalSemIR - valorTotal).toFixed(2)
 iterableInputs[7].value = aliquota * 100 + "%"
 
 iterableInputs[1].style.color = '#C4B420'
@@ -61,5 +64,5 @@ iterableInputs[7].style.color = '#FF0000'
 const labelInvest = document.getElementById('label-line-invest')
 const labelPoupanca = document.getElementById('label-line-poupanca')
 
-labelInvest.innerHTML = valorTotalComIR.toFixed(0)
-labelPoupanca.innerHTML = (valorTotalSemIR * 0.7).toFixed(0)
+labelInvest.innerHTML = valorTotal.toFixed(0)
+labelPoupanca.innerHTML = (valorTotal * 0.7).toFixed(0)
