@@ -6,7 +6,11 @@ input {
   border: 0;
 }
 
-h4, p {
+a {
+  text-decoration: none;
+}
+
+h4, p, span {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -15,6 +19,10 @@ h4, p {
 
   left: 47px;
   color: #000000;
+}
+
+span {
+  font-weight: 700;
 }
 
 .content-container {
@@ -61,31 +69,27 @@ h4, p {
   background-color: #0EA45D;
   width: 960px;
   height: 100px;
-  text-align: center;
 }
 
 .logo-header {
-  justify-content: center;
-  align-items: center;
   padding: 0px;
   gap: 20px;
 
+  display: inline-block;
   position: relative;
-  width: 456px;
   height: 61px;
-  left: 252px;
+  left: 316.13px;
   top: 20px;
 }
 
 .logo-header img {
   width: 78.09px;
   height: 58.49px;
-  /* left: 64.13px; */
-  /* top: -0.46px; */
 }
 
-.logo-header span {
-  top: -3.5px;
+.logo-header a span {
+  left: 24.65px;
+  bottom: 10px;
 
   font-family: 'Alumni Sans';
   font-style: normal;
@@ -96,10 +100,6 @@ h4, p {
   border: 0;
 
   color: #FFFFFF;
-}
-
-.logo-header a {
-  text-decoration: none;
 }
 
 .container-botoes {
@@ -131,9 +131,6 @@ h4, p {
   font-size: 18px;
   line-height: 22px;
   color: #FFFFFF;
-
-  list-style-type: none;
-  text-decoration: none;
 }
 
 .simule-text {

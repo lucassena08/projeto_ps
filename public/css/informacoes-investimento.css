@@ -41,7 +41,7 @@ form label[for='tipo_investimento'] {
   width: 130px;
   height: 49px;
   top: 33px;
-  
+
   border: 0;
 
   background: #FFFFFF;
@@ -74,10 +74,53 @@ footer {
 
 .arrow-1 {
   top: 25px;
-  left: 116px;
+  left: 89px;
 }
 
 .arrow-2 {
   top: 52px;
-  left: 159.99px;
+  left: 133px;
+}
+
+.poupanca-box {
+  width: 20px;
+  height: 20px;
+  left: 137px;
+  top: 59px;
+
+  border: 0;
+
+  background-color: #FF4C4C;
+}
+
+.poupanca-label {
+  top: 41px;
+  left: 167px;
+
+  color: #FF0000
+}
+
+.label-reais {
+  position: absolute;
+  left: 0;
+  top: 52px;
+  left: calc(105px);
+}
+
+.label-tempo {
+  position: absolute;
+  left: 775px;
+  top: 545px;
+}
+
+.btn-simular a {
+  color: #FFFFFF;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
 }
