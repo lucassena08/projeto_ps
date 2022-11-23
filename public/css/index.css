@@ -2,9 +2,10 @@
   position: relative;
 }
 
-/* html {
-  left: 25%;
-} */
+html {
+  max-width: 960px;
+  left: 18%;
+}
 
 input {
   border: 0;
@@ -111,6 +112,10 @@ span {
   height: 30px;
 
   background: #E97B3E;
+}
+
+.container-botoes a:hover {
+  background-color: #0EA45D;
 }
 
 .navbar {
