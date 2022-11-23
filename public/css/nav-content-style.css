@@ -1,0 +1,14 @@
+.content-container-nav {
+  top: 208px;
+}
+
+.content-container-nav p {
+  width: 866px;
+  top: 32px;
+
+  text-align: justify;
+}
+
+span {
+  font-weight: 700;
+}

@@ -1,4 +1,4 @@
-header {
+* {
   position: relative;
 }
 
@@ -7,8 +7,6 @@ input {
 }
 
 h4, p {
-  position: relative;
-  
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -60,7 +58,6 @@ h4, p {
 }
 
 .main-container {
-  position: relative;
   background-color: #0EA45D;
   width: 960px;
   height: 100px;
@@ -68,7 +65,6 @@ h4, p {
 }
 
 .logo-header {
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   padding: 0px;
@@ -82,7 +78,6 @@ h4, p {
 }
 
 .logo-header img {
-  position: relative;
   width: 78.09px;
   height: 58.49px;
   /* left: 64.13px; */
@@ -90,7 +85,6 @@ h4, p {
 }
 
 .logo-header span {
-  position: relative;
   top: -3.5px;
 
   font-family: 'Alumni Sans';
@@ -99,7 +93,13 @@ h4, p {
   font-size: 56.4736px;
   line-height: 68px;
 
+  border: 0;
+
   color: #FFFFFF;
+}
+
+.logo-header a {
+  text-decoration: none;
 }
 
 .container-botoes {
@@ -116,7 +116,6 @@ h4, p {
   padding: 0px;
   gap: 23px;
 
-  position: relative;
   width: 636px;
   height: 22px;
   left: 162px;
@@ -138,24 +137,11 @@ h4, p {
 }
 
 .simule-text {
-  position: relative;
   width: 723px;
   display: inline-block;
 
-  margin: 0;
   left: 118px;
-  right: 0;
-  bottom: 0;
   top: 86px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-
-
-  color: #000000;
 }
 
 .simule-text strong {
@@ -163,8 +149,6 @@ h4, p {
 }
 
 .input-sequence {
-  position: relative;
-
   --tamanho-gap: 42px;
   --tamanho-input: 49px;
 
@@ -223,7 +207,6 @@ h4, p {
 }
 
 .btn-simular {
-  position: relative;
   width: 163px;
   height: 49px;
   top: 32px;
@@ -246,7 +229,6 @@ h4, p {
 }
 
 footer {
-  position: relative;
   width: 960px;
   height: 100px;
   left: 0px;
@@ -256,8 +238,6 @@ footer {
 
 
 footer img {
-  position: relative;
-
   height: 67px;
   width: 71px;
 
@@ -279,7 +259,6 @@ footer span {
 
   left: 298px;
   top: -16px;
-
 
   color: #FFFFFF;
 }
