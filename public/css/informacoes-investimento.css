@@ -73,13 +73,11 @@ footer {
 }
 
 .arrow-1 {
-  position: relative;
-  top: calc(540px - 494px);
-  left: 115px;
+  top: 25px;
+  left: 116px;
 }
 
 .arrow-2 {
-  position: relative;
   top: 52px;
-  left: calc(-677px + 144.99px);
+  left: 159.99px;
 }
