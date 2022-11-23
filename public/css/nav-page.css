@@ -1,0 +1,16 @@
+.content-container-nav {
+  top: 0;
+  height: 654px;
+}
+
+.content-container-nav h4 {
+  left: 0;
+  top: 83px
+}
+
+.content-container-nav p {
+  width: 866px;
+  top: 126px;
+
+  text-align: justify;
+}

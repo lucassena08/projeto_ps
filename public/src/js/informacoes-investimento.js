@@ -49,3 +49,11 @@ iterableInputs[4].value = valorTotalSemIR.toFixed(2)
 iterableInputs[5].value = (valorTotalSemIR - valorTotalInvestido).toFixed(2)
 iterableInputs[6].value = (valorTotalSemIR - valorTotalComIR).toFixed(2)
 iterableInputs[7].value = aliquota * 100 + "%"
+
+iterableInputs[1].style.color = '#C4B420'
+iterableInputs[2].style.color = '#C4B420'
+iterableInputs[3].style.color = '#00982B'
+iterableInputs[4].style.color = '#00982B'
+iterableInputs[5].style.color = '#00982B'
+iterableInputs[6].style.color = '#FF0000'
+iterableInputs[7].style.color = '#FF0000'

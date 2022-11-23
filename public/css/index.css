@@ -2,6 +2,10 @@
   position: relative;
 }
 
+/* html {
+  left: 25%;
+} */
+
 input {
   border: 0;
 }
@@ -189,7 +193,7 @@ span {
 }
 
 
-.input-texto-pag1 {
+.input-texto-pag {
   width: 454px;
   height: 49px;
 
