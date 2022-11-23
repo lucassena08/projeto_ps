@@ -27,7 +27,7 @@ form label[for='tipo_investimento'] {
 }
 
 .input-sequence {
-  top: 728px;
+  top: 187px;
 
   height: 839px;
 }
@@ -70,4 +70,16 @@ label[for='input-sequence'] {
 
 footer {
   margin-top: 43px;
+}
+
+.arrow-1 {
+  position: relative;
+  top: calc(540px - 494px);
+  left: 115px;
+}
+
+.arrow-2 {
+  position: relative;
+  top: 52px;
+  left: calc(-677px + 144.99px);
 }
