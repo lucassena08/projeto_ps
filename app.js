@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 app.get("/:foo", (req, res) => {
   const foo = req.params.foo
 
-  if (foo === 'favicon') return
+  if (foo === 'favicon' || foo === 'favicon.ico') return
 
   res.sendFile(__dirname + "/public/views/" + foo + ".html")
 })

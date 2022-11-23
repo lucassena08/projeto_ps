@@ -6,10 +6,29 @@ input {
   border: 0;
 }
 
+h4, p {
+  position: relative;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  left: 47px;
+  color: #000000;
+}
+
 .content-container {
   display: inline-block;
   width: 960px;
   height: 948px;
+}
+
+.content-container-nav {
+  display: inline-block;
+  width: 960px;
+  height: 884px;
 }
 
 @font-face {
@@ -134,7 +153,7 @@ input {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  
+
 
   color: #000000;
 }
@@ -155,7 +174,7 @@ input {
   align-items: center;
 
   height: calc(var(--tamanho-input) * 5 + calc(var(--tamanho-gap) * 4) + 49px);
-  
+
   top: 187px;
 
   width: 468px;
@@ -207,7 +226,7 @@ input {
   position: relative;
   width: 163px;
   height: 49px;
-  top: 32px; 
+  top: 32px;
 
   background: #00E378;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
