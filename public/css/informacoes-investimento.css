@@ -1,3 +1,11 @@
+.content-container {
+  --altura-container-sup: 130px;
+  --altura-container-inf: 100px;
+  --altura-total: 1840px;
+
+  height: calc(var(--altura-total) - var(--altura-container-sup) - var(--altura-container-inf));
+}
+
 form label {
   font-family: 'Inter';
   font-style: normal;
@@ -19,39 +27,35 @@ form label[for='tipo_investimento'] {
 }
 
 .input-sequence {
-  --tamanho-gap: 42px;
-  --tamanho-input: 49px;
-  --area-logo-xp: calc(49px + 33px);
+  top: 728px;
 
-  height: calc(var(--tamanho-input) * 8 + calc(var(--tamanho-gap) * 7) + 49px + var(--area-logo-xp));
-
-  /* margin-bottom: 43px; */
+  height: 839px;
 }
 
 .btn-simular {
-  margin-top: 10px;
+  top: 10px;
 }
 
 .div-logo {
   position: relative;
   width: 130px;
   height: 49px;
-  /* left: 415px; */
-  /* top: 950px; */
-
-  text-align: center;
+  top: 33px;
+  
+  border: 0;
 
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-
-  bottom: 43px;
-  top: 33px;
 }
 
 .div-logo img {
-  /* margin-top: 12px; */
-  /* padding-left: 13px; */
+  position: relative;
+  display: inline-block;
+  top: 12px;
+  left: 13px;
+  right: 0;
+  height: 24.2px;
 }
 
 label[for='input-sequence'] {
