@@ -2,6 +2,10 @@ header {
   position: relative;
 }
 
+input {
+  border: 0;
+}
+
 .content-container {
   display: inline-block;
   width: 960px;

@@ -11,15 +11,10 @@ formulario.onsubmit = () => {
   const selectedIndexText = selecao[0].options[selectedIndex].innerText
   localStorage.setItem(selectedIndexTitle, selectedIndexText)
 
-  console.log(selectedIndexTitle)
-  console.log(selectedIndexText)
-
   iterableInputs.forEach(input => {
     const name = input.name
     const text = input.value || input.placeholder
 
-    console.log(name)
-    console.log(text)
     localStorage.setItem(name, text)
   })
 }
